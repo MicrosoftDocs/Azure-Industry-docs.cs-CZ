@@ -4,18 +4,23 @@
       "docset_name": "Azure-industry",
       "build_source_folder": "azure-industry-docs",
       "build_output_subfolder": "Azure-industry",
-      "locale": "cs-CZ",
+      "locale": "cs-cz",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
       "build_entry_point": "docs",
       "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [],
   "branches_to_filter": [
-    "live-sxs",
-    "master-sxs"
+    "live",
+    "master"
   ],
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
@@ -24,7 +29,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.cs-CZ",
+      "url": "https://github.com/Microsoft/templates.docs.msft.cs-cz",
       "branch": "master",
       "branch_mapping": {}
     },
