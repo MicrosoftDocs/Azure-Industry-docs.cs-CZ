@@ -1,0 +1,72 @@
+- name: Odvětví
+  href: index.md
+  items:
+    - name: Finanční služby
+      href: financial/index.md
+      items:
+        - name: Řešení rizikových sítí v bankovnictví
+          items:
+            - name: Přehled
+              href: financial/risk-grid-banking-overview.md
+            - name: Průvodce řešením
+              href: financial/risk-grid-banking-solution-guide.md
+        - name: Přehled podvodů v mobilní bance
+          href: financial/mobile-bank-fraud-overview.md
+        - name: Analýza pojistných rizik a finanční modelování
+          items:
+            - name: Přehled
+              href: financial/actuarial-risk-analysis-and-financial-modeling-overview.md
+            - name: Průvodce řešením
+              href: financial/actuarial-risk-analysis-and-financial-modeling-solution-guide.md
+        - name: Přehled Správa dat v bankovnictví
+          href: financial/data-mgmt-in-banking-overview.md
+        - name: Povolení životního cyklu rizik finančních služeb s Azure a R
+          href: financial/fsi-risk-modeling.md
+    - name: Zdravotnictví &e životních věd
+      href: health/index.md
+      items:
+        - name: Implementace Azure detailu pro AI
+          items:
+            - name: Přehled
+              href: health/overview-healthcare-ai-blueprint.md
+            - name: Průvodce řešením
+              href: health/sg-healthcare-ai-blueprint.md
+    - name: Výroba
+      href: manufacturing/index.md
+      items:
+        - name: Vysoce výkonná výpočetní prostředí
+          items:
+            - name: Přehled
+              href: manufacturing/compute-in-manufacturing-overview.md
+        - name: Prediktivní údržba
+          items:
+            - name: Přehled
+              href: manufacturing/predictive-maintenance-overview.md
+            - name: Průvodce řešením
+              href: manufacturing/predictive-maintenance-solution.md
+        - name: Extrakce přehledů z dat IoT
+          items:
+            - name: Přehled
+              href: manufacturing/extracting-insights-from-iot-data-overview.md
+            - name: Průvodce řešením
+              href: manufacturing/extracting-insights-from-iot-data.md
+    - name: Maloobchod
+      href: retail/index.md
+      items:
+        - name: Přehled Správa dat v maloobchodě
+          href: retail/retail-data-management-overview.md
+        - name: Migrace řešení elektronického obchodování do Azure Overview
+          href: retail/migrating-ecommerce-solution-to-azure.md
+        - name: Optimalizace a opakované použití stávajícího systému doporučení
+          href: retail/recommendation-engine-optimization.md
+        - name: Zpracování plateb vyhovujících PCI DSS
+          href: /azure/security/blueprints/payment-processing-blueprint
+          maintainContext: true
+        - name: Přehled Vizuální vyhledávání
+          href: retail/visual-search-use-case-overview.md
+        - name: Optimalizace SKU pro značky uživatelů
+          items:
+            - name: Přehled
+              href: retail/sku-optimization-overview.md
+            - name: Průvodce řešením
+              href: retail/sku-optimization-solution-guide.md
