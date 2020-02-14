@@ -1,0 +1,80 @@
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+    - name: Azure
+      tocHref: /previous-versions/azure/
+      topicHref: /previous-versions/azure/
+      items:
+        - name: Odvětví
+          tocHref: /previous-versions/Industry/
+          topicHref: /previous-versions/azure/industry/
+          items:
+            - name: Finanční služby
+              tocHref: /previous-versions/Financial/
+              topicHref: /previous-versions/azure/industry/financial/
+              items:
+                - name: Další materiály a zdroje informací
+                  items:
+                    - name: Dokumentace ke službě Azure Batch
+                      tocHref: /azure/batch
+                    - name: Ukázky kódu Batch
+                      tocHref: /resources/samples/?service=batch
+                    - name: Úložiště ukázek kódu Batch
+                      tocHref: 'https://github.com/Azure/azure-batch-samples'
+                    - name: Místní připojení
+                      tocHref: /azure/networking/networking-overview
+                    - name: FFIEC pro regulované úlohy
+                      tocHref: /azure/security/blueprints/financial-services-regulated-workloads
+                    - name: Kurz – integrace AAD s bankou prostředků
+                      tocHref: /azure/active-directory/active-directory-saas-assetbank-tutorial
+            - name: Zdravotnictví &e životních věd
+              tocHref: /previous-versions/Health & Life Sciences/
+              topicHref: /previous-versions/azure/industry/health/
+              items:
+                - name: Rozpoznávání nezdravotnických entit
+                  tocHref: /azure/machine-learning/desktop-workbench/scenario-tdsp-biomedical-recognition
+                - name: Změny záznamu zdravotní péče změněného HL7 FHIR
+                  tocHref: /azure/cosmos-db/change-feed-hl7-fhir-logic-apps
+                - name: Azure Blueprint
+                  items:
+                    - name: Zabezpečení Azure a dodržování předpisů – data o stavu HIPAA/HITRUST a AI
+                      href: /azure/security/blueprints/azure-health
+                    - name: Zabezpečení a dodržování předpisů v Azure – analýza dat pro Velká Británie NHS
+                      href: /azure/security/blueprints/uknhs-analytics-overview
+                    - name: Zabezpečení a dodržování předpisů v Azure – analýza dat pro Velká Británie NHS
+                      href: /azure/security/blueprints/uknhs-analytics-overview
+                    - name: Zabezpečení a dodržování předpisů v Azure – datový sklad pro Velká Británie NHS
+                      href: /azure/security/blueprints/uknhs-datawarehouse-overview
+                    - name: Zabezpečení a dodržování předpisů Azure – IaaS webová aplikace pro Velká Británie NHS
+                      href: /azure/security/blueprints/uknhs-iaaswa-overview
+                    - name: Zabezpečení a dodržování předpisů Azure – PaaS webová aplikace pro Velká Británie NHS
+                      href: /azure/security/blueprints/uknhs-paaswa-overview
+                - name: Další materiály a zdroje informací
+                  items:
+                    - name: Rychlý Start – služba Microsoft Genomics
+                      tocHref: /azure/genomics/quickstart-run-genomics-workflow-portal
+                    - name: Zabezpečení – HIPAA/HITRUST – data o stavu a AI
+                      tocHref: /azure/security/blueprints/azure-health
+                    - name: Přehled stavu bot
+                      tocHref: /azure/healthbot/
+            - name: Výroba
+              tocHref: /Manufacturing/
+              topicHref: /previous-versions/azure/industry/manufacturing/
+              items:
+                - name: Obsáhlý Learning pro scénáře PdM reálného světa
+                  tocHref: /azure/machine-learning/desktop-workbench/scenario-deep-learning-for-predictive-maintenance
+                - name: Další materiály a zdroje informací
+                  items:
+                    - name: Azure Stream Analytics zpracování dat ze zařízení IoT
+                      tocHref: /azure/stream-analytics/
+            - name: Maloobchod
+              tocHref: /Retail/
+              topicHref: /previous-versions/azure/industry/retail/
+              items:
+                - name: Zpracování plateb vyhovujících PCI DSS
+                  tocHref: /azure/security/blueprints/payment-processing-blueprint
+                - name: Další materiály a zdroje informací
+                  items:
+                    - name: Azure Cosmos DB v maloobchodu a marketingu
+                      tocHref: /azure/cosmos-db/use-cases
